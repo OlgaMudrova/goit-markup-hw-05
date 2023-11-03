@@ -551,7 +551,7 @@ gap: 24px;
 
  /*<!--PAGE FOOTER-->*/
 
-.footer-conteinet {
+.footer-block .footer-conteinet {
     display: flex;
     align-items: baseline;
 }
@@ -701,11 +701,20 @@ gap: 24px;
     pointer-events: none;
     transition: opaccity 250ms linear, visibility 250ms linear;
 }
-
 .backdrop.is-open {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.review-fors-description {
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+
 }
 
  
@@ -721,8 +730,19 @@ gap: 24px;
 min-height: 584px;
 border-radius: 15px;
 background-color: #FFFFFF;
+padding: 40px;
 }
+.review-fors-description {
+    
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
 
+      
+}
 .modal-close-btn {
     position: absolute;
     top: 24;
@@ -736,9 +756,28 @@ background-color: #FFFFFF;
 
 .modal-close-btn:hover 
 .modal-close-btn:focus {
-    stroke: 2E2F42;
+    stroke: #2E2F42;
 }
 
 .modal-close-btn-icon {
     stroke: #2E2F42;
+}
+
+.review-fors-description {
+    width: 360;
+    color: #111111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    
+}
+
+/*<!--REVIEW FORM STYLES-->*/
+
+.review-fors-field-label {
+    display: block;
+    color: r;
 }
