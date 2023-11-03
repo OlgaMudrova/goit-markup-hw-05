@@ -143,7 +143,7 @@ address {
         display: block;
         position:absolute;
         content: "";
-        width: 100px;
+        width: 100%;
         height: 4px;
         bottom: -1px;
         border-radius: 2px;
@@ -225,7 +225,7 @@ address {
     background: #2e2f42;
     padding: 188px 0 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+     rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -779,5 +779,49 @@ text-align: center;
 
 .review-fors-field-label {
     display: block;
-    color: r;
+   font-size: 14px;
+   font-weight: 400;
+   letter-spacing: -0.02em;
+   color: rgba(64, 64, 64, 0.3);
+   margin: 8px;
+}
+
+.review-form-field-wrapper {
+    margin-bottom: 18px;
+}
+
+.review-form-input-wrapper {
+position: relative;
+}
+
+.review-form-field {
+width: 100%;
+height: 24px;
+border-radius: 13px;
+border: 1px solidrgba(17, 17, 17, 0.05);
+padding: 3px, 0px, 3px, 0px;
+
+}
+
+.review-form-field {
+border-color: #4D5AE5;
+outline-offset: 2px;
+}
+
+.contact-form-input {
+    width: 100%;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solidrgba(17, 17, 17, 0.05);
+    padding: 3px, 0px, 3px, 0px;
+    
+}
+
+.review-form-field-icon {
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+   stroke: #4D5AE5;
+   
 }
