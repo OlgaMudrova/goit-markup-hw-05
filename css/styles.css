@@ -670,7 +670,7 @@ gap: 24px;
     }
     
     .form-send-label {
-        gap 24px;
+        gap: 24px;
         width: 453px;
     height: 80px;
     top: 100px;
@@ -681,16 +681,23 @@ gap: 24px;
     }
   
     .form-send-label-button   {
-        min-width: 165px; 
+        position: relative;
+        display: inline-flex;
+        width: 165px; 
         height: 40px; 
-        display: flex; 
-        justify-content: center; 
-        align-items: center;
-        font-family: "Roboto", sans-serif;
+        padding: 8px 24px;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        color: #FFFFFF;
+
+        justify-content: center; 
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        
+        
+       
         color: #4D5AE5;
         background-color: #ffffff;
     }
@@ -719,14 +726,9 @@ fill: #FFFFFF;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
-    border: none;
-   
-
 }
 .backdrop.is-open {
     opacity: 1;
