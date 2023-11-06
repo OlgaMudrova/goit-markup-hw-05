@@ -433,7 +433,9 @@
 <div class="form">
     <p class="form-send-title">Subscribe</p>
        <form class="form-send-form">
-          <label class="form-send-label">
+        <div>
+          <label class="form-send-label"></label>
+            <div>
              <input class="form-send-label-input"
                 type="email"
                    name="e-mail"
@@ -443,7 +445,9 @@
         <use href="./....."></use>
         </svg>
         </button>
-    </label>
+            </div>
+        </div>
+    
        </form>
 </div>
   
@@ -521,20 +525,24 @@
         </div>
 
         <div class="review-form-checkbox-wrapper">
-        <input class="visually-hidden" 
+        <input class="review-form-checkbox visually-hidden" 
         type="checkbox"
         name="user-privacy"
         value="true"
         id="user-privacy" 
         required
+        tabindex="0"
         />
-        <label class="review-form-checkbox-label" form="user-privacy">
+        <label class="review-form-checkbox-label" for="user-privacy">
+            <span class="privacy-policy-link">
+                 <svg class="review-form-field-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+            </span>
         I accept the terms and conditions of the 
-        <span class="privacy-policy-link" href="">Privacy Policy</span>
-        <svg class="review-form-field-icon" width="10" height="8" style="position: absolute">
-        <use href="./images....."></use>
-        </svg>
-    </div>
+        <a class="privacy-policy-link" href="">Privacy Policy</a>
+        
+   
     </label>
         <div>
         <button class="review-form-btn">Send</button>
