@@ -916,8 +916,13 @@ border-color: #4d5ae5;
     align-items: center;
     justify-content: center; 
     fill: transparent;
+    cursor: pointer;
 
-    background-color: #404bbf;
+    
+}
+.review-form-checkbox-wrapper:checked +
+.privacy-policy-link, .form-checkbox-label {
+background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
