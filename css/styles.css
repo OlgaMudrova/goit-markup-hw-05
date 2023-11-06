@@ -716,10 +716,17 @@ gap: 24px;
     background-color: #4D5AE5;
 }
 
+
+
 .form-send-label-icon {
      margin-left: 16px;
+     background: #FFFFFF;
+
     }
 
+
+
+    
 /*<!--BACKDROP-->*/
 
 .backdrop {
