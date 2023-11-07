@@ -958,6 +958,6 @@ fill: #4D5AE5;
 .review-form-checkbox:checked + .review-form-checkbox-label .privacy-policy-link {
     background-color: #404BBF;
     border: none;
-    fill: #FFFFFF;
+    fill: #F4F4FD;;
     border-color: #404BBF;
 }
