@@ -823,7 +823,7 @@ padding: 72px 24px 24px 24px;
 }
 
 .review-form-field-wrapper {
-    margin-bottom: 8px;  
+    margin-bottom: 1px;  
 }
 
 .review-form-input-label {
@@ -858,7 +858,8 @@ border-color: #4D5AE5;
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
-   
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
  }
 
 .review-form-field:focus,
