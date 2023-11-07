@@ -887,14 +887,14 @@ border-color: #4d5ae5;
     margin-bottom: 16px;  
 }
 
-.user-textarea: focus {
+.user-textarea:focus {
     border-color: #4D5AE5;
 }
 .user-comment::placeholder {
     color: rgba(0.4, 0, 0.2, 1);
 }
 
-.user-comment :focus {
+.user-comment:focus {
     border-color: #4D5AE5;
     outline-color: transparent;
     outline-offset: 4px; 
