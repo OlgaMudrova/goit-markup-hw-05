@@ -955,9 +955,9 @@ fill: #4D5AE5;
     margin: auto;
 }
 
-.review-form-checkbox visually-hidden 
-:checked + .review-form-checkbox-label> .privacy-policy-link {
-    background-color: #404BBF;border: none;
+.review-form-checkbox:checked + .review-form-checkbox-label .privacy-policy-link {
+    background-color: #404BBF;
+    border: none;
     fill: #FFFFFF;
     border-color: #404BBF;
 }
